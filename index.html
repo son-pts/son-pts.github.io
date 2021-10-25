@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ======iCon 128*128====== -->
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/3014/3014254.png" sizes="128x128" type="ico">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Sơn Web Designer</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6J1QX5RKVE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-6J1QX5RKVE');
+    </script>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Phạm Sơn</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#Product" class="nav__link">Product</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title">HELLO<br>EVERY<br>ONE</h1>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt'></i>Scroll down</a>
+                </div>
+
+                <img src="assets/img/duoi 1mb.png" alt="img" class="home__img">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/sd.jpg" alt="img">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'am Phạm Sơn</h2>
+                    <span class="about__profession">Web designer</span>
+                    <p class="about__text"> Web Designer-is a combination of skills of two people, a graphic designer
+                        and a web programmer. Design an object with graphic tools and use programming to make it part of
+                        the web. webpage. Therefore, besides design skills, it is necessary to have basic programming
+                        knowledge to code your designs.</p>
+
+                    <div class="about__social">
+                        <a href="https://www.facebook.com/sonkta/" class="about__social-icon"><i
+                                class='bx bxl-facebook'></i></a>
+                        <a href="https://www.youtube.com/channel/UCIDv607tiQKtZ0A-eFBqTlg" class="about__social-icon"><i
+                                class='bx bxl-youtube'></i></a>
+                        <a href="https://www.instagram.com/pham_son202/" class="about__social-icon"><i
+                                class='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/phamthanhson999" class="about__social-icon"><i
+                                class='bx bxl-github'></i></a>
+                        <a href="https://dribbble.com/phamsonkta" class="about__social-icon"><i
+                                class='bx bxl-dribbble'></i></a>
+                    </div>
+                    <!--===== aduio =====-->
+                    <div class="audio" id="audio">
+                        <audio controls loop="1">
+                            <source src="./assets/img/Do-Toc-2-Do-Mixi-Phao-Phuc-Du-Masew.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Development</h3>
+                    <span class="skills__name">Html</span>
+                    <span class="skills__name">Css</span>
+                    <span class="skills__name">Javascript</span>
+                    <span class="skills__name">Scss</span>
+                    <span class="skills__name">Github ...</span>
+
+                    <h3 class="skills__subtitle">Design</h3>
+                    <span class="skills__name">Figma</span>
+                    <span class="skills__name">Adobe XD</span>
+                    <span class="skills__name" id="PSD">Photoshop</span>
+                    <span class="skills__name">Illustrator ...</span>
+
+
+                    <h3 class="skills__subtitle">Overtime work</h3>
+                    <span class="skills__name">Thợ Sửa Ống Nước</span>
+                    <span class="skills__name">Cài Win Dạo</span>
+                    <span class="skills__name">Chỉnh Ảnh Photoshop</span>
+                    <span class="skills__name">Design Poster</span>
+                    <span class="skills__name">Design Menu</span>
+                    <span class="skills__name">Design Brochure ...</span>
+                </div>
+
+                <div class="skills__img">
+                    <img src="./assets/img/team2.png" alt="img">
+                </div>
+            </div>
+        </section>
+
+        <div class="modal" id="modals">
+            <div class="contenr">
+                <div class="closes" id="nav-closes">
+                    <i class='icon-close bx bx-window-close'></i>
+                </div>
+                <div class="item-wrap">
+                    <div class="item ">
+                        <img src="./assets/images/001.jpg" alt="Image">
+                    </div>
+    
+                    <div class="item">
+                        <img src="./assets/images/002.jpg" alt="Image">
+                    </div>
+    
+                    <div class="item">
+                        <img src="./assets/images/003.jpg" alt="Image">
+                    </div>
+    
+                    <div class="item">
+                        <img src="./assets/images/004.jpg" alt="Image">
+                    </div>
+    
+                    <div class="item">
+                        <img src="./assets/images/005.jpg" alt="Image">
+                    </div>
+    
+                    <div class="item">
+                        <img src="./assets/images/006.jpg" alt="Image">
+                    </div>
+    
+                    <div class="item">
+                        <img src="./assets/images/007.jpg" alt="Image">
+                    </div>
+    
+                    <div class="item">
+                        <img src="./assets/images/008.jpg" alt="Image">
+                    </div>
+    
+                    <div class="item">
+                        <img src="./assets/images/019.jpg" alt="Image">
+                    </div>
+    
+                    <div class="item">
+                        <img src="./assets/images/011.jpg" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--===== PORTFOLIO =====-->
+        <section class="portfolio section" id="Product">
+            <h2 class="section-title">Product</h2>
+
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__img">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/s417x417/245089852_177964234509384_5286200267450859683_n.png?_nc_cat=103&ccb=1-5&_nc_sid=aee45a&_nc_ohc=_PFFyl13OuMAX9Ifob1&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=312d0d5ef7c63427ba55e4a1c8da4e7e&oe=618D7BA6"
+                        alt="img">
+
+                    <div class="portfolio__link">
+                        <a href="https://son-pts.github.io/" class="portfolio__link-name">View details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__img">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/245187515_251539813654041_4880461424761083753_n.png?_nc_cat=109&ccb=1-5&_nc_sid=aee45a&_nc_ohc=GMgPnA5UgNcAX9w_oeU&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=75e081ab565153be10f4678d740e6cd9&oe=618E04FC"
+                        alt="img">
+
+                    <div class="portfolio__link">
+                        <a onclick="alert('Link đã bị lỗi vui lòng thử lại sau')" ; class="portfolio__link-name">View
+                            details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__img">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/245865882_907290426869952_5168498062770331_n.png?_nc_cat=100&ccb=1-5&_nc_sid=aee45a&_nc_ohc=xjv3Z7sMJfMAX8n-D2W&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=37c09ce870f3befda892c7aab5b725fa&oe=618E4C29"
+                        alt="img">
+
+                    <div class="portfolio__link">
+                        <a href="https://9kyx0naz0kp2cx871gbjrw-on.drv.tw/text%26nhi%20phan%20%26%20morse/"
+                            class="portfolio__link-name">View details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__img">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/s417x417/245304458_4384694298316514_443226790767331541_n.png?_nc_cat=111&ccb=1-5&_nc_sid=aee45a&_nc_ohc=7lKZqWztUO0AX9AaMnU&_nc_oc=AQndjoD1lqbDTv_5k9RhzcyQBidAc6rNJU3G0LXs9y7a34XaevzWHwqZ5SjOSKeimVPgb3tu4U5T4yylw7MEVaB0&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=a43094d8614dc714d7e38b7e8ac52635&oe=618D78DA"
+                        alt="img">
+
+                    <div class="portfolio__link">
+                        <a onclick="alert('Link đã bị lỗi vui lòng thử lại sau')" ; class="portfolio__link-name">View
+                            details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__img">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/245648272_1328282364291609_1944163670870175876_n.png?_nc_cat=105&ccb=1-5&_nc_sid=aee45a&_nc_ohc=viCDn7SLvIwAX9WakJK&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=80195a0604dc11c917b5e902a8f3bdda&oe=618F3B0B"
+                        alt="img">
+
+                    <div class="portfolio__link">
+                        <a href="#" class="portfolio__link-name">View details</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__img">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/s417x417/245190982_925634625057635_4976866671663423627_n.png?_nc_cat=103&ccb=1-5&_nc_sid=aee45a&_nc_ohc=p9IH6V7Hc8cAX9K6Ypd&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=88beca9cfb83a7c29e90cd5589aa1b8f&oe=618C216F"
+                        alt="img">
+
+                    <div class="portfolio__link">
+                        <a href="https://9kyx0naz0kp2cx871gbjrw-on.drv.tw/www.studio.com/"
+                            class="portfolio__link-name">View details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">EMAIL</h3>
+                    <span class="contact__text">sonpts@gmail.com</span>
+
+                    <h3 class="contact__subtitle">PHONE</h3>
+                    <span class="contact__text">0845816786</span>
+
+                    <h3 class="contact__subtitle">ADDRESS</h3>
+                    <span class="contact__text">Ngyễn Công Trứ, Phường 8, Đà Lạt</span>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                    </div>
+
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <button onclick="alert('Gửi Thành Công')">Submit</button>
+                    <!-- <input type="submit" onclick="alert('Gửi Thành Công')" value="Submit" class="contact__button"> -->
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title">Phạm Sơn</h2>
+                <p class="footer__text">I'm Phạm Sơn and this is my personal website</p>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">PAGE</h2>
+                <ul>
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#about" class="footer__link">About</a></li>
+                    <li><a href="#skills" class="footer__link">Skills</a></li>
+                    <li><a href="#Product" class="footer__link">Product</a></li>
+                    <li><a href="#Contact" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">FOLLOW ME</h2>
+                <a href="https://www.facebook.com/sonkta/" class="about__social-icon"><i
+                        class='bx bxl-facebook'></i></a>
+                <a href="https://www.youtube.com/channel/UCIDv607tiQKtZ0A-eFBqTlg" class="about__social-icon"><i
+                        class='bx bxl-youtube'></i></a>
+                <a href="https://www.instagram.com/pham_son202/" class="about__social-icon"><i
+                        class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/phamthanhson999" class="about__social-icon"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://dribbble.com/phamsonkta" class="about__social-icon"><i class='bx bxl-dribbble'></i></a>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+
+</html>
