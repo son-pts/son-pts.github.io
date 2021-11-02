@@ -87,7 +87,9 @@ function scrollUp(){
 window.addEventListener('scroll', scrollUp)
 
 
-/*===== MENU SHOW 2 =====*/ 
+
+
+/*===== MENU SHOW 2 PDS =====*/ 
 const showMenu2 = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
@@ -99,13 +101,25 @@ const showMenu2 = (toggleId, navId) =>{
     }
 }
 showMenu2('PSD','modals')
+showMenu2('poster','posters')
+showMenu2('menu','menus')
+showMenu2('brochuer','brochuers')
+showMenu2('AI','ais')
 
-/*===== REMOVE MENU SHOW2 =====*/
+/*===== REMOVE MENU SHOW 2  =====*/
 const navLink2 = document.querySelectorAll('.closes')
 
 function linkAction2(){
-    const navMenu2 = document.getElementById('modals')
+    const navMenu2 = document.getElementById('modals' )
     navMenu2.classList.remove('block')
+    const navMenu3 = document.getElementById('posters' )
+    navMenu3.classList.remove('block')
+    const navMenu4 = document.getElementById('menus')
+    navMenu4.classList.remove('block')
+    const navMenu5 = document.getElementById('brochuers')
+    navMenu5.classList.remove('block')
+    const navMenu6 = document.getElementById('ais')
+    navMenu6.classList.remove('block')
 }
 navLink2.forEach(n => n.addEventListener('click', linkAction2))
 

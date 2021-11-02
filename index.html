@@ -35,11 +35,11 @@
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#Product" class="nav__link">Product</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="#home" class="nav__link  active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link ">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link ">Skills</a></li>
+                    <li class="nav__item"><a href="#Product" class="nav__link ">Product</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link ">Contact</a></li>
                 </ul>
             </div>
 
@@ -61,6 +61,9 @@
 
                 <img src="assets/img/duoi 1mb.png" alt="img" class="home__img">
             </div>
+            <div class="circle one"></div>
+            <div class="circle two"></div>
+            <div class="circle three"></div>
         </section>
 
         <!--===== ABOUT =====-->
@@ -83,11 +86,11 @@
                     <div class="about__social">
                         <a href="https://www.facebook.com/sonkta/" class="about__social-icon"><i
                                 class='bx bxl-facebook'></i></a>
-                        <a href="https://www.youtube.com/channel/UCIDv607tiQKtZ0A-eFBqTlg" class="about__social-icon"><i
+                        <a href="https://www.youtube.com/channel/UCpjtZ-pRZniHjK375ZSZztA" class="about__social-icon"><i
                                 class='bx bxl-youtube'></i></a>
                         <a href="https://www.instagram.com/pham_son202/" class="about__social-icon"><i
                                 class='bx bxl-instagram'></i></a>
-                        <a href="https://github.com/phamthanhson999" class="about__social-icon"><i
+                        <a href="https://github.com/son-pts" class="about__social-icon"><i
                                 class='bx bxl-github'></i></a>
                         <a href="https://dribbble.com/phamsonkta" class="about__social-icon"><i
                                 class='bx bxl-dribbble'></i></a>
@@ -110,26 +113,27 @@
             <div class="skills__container bd-grid">
                 <div class="skills__box">
                     <h3 class="skills__subtitle">Development</h3>
-                    <span class="skills__name">Html</span>
-                    <span class="skills__name">Css</span>
-                    <span class="skills__name">Javascript</span>
-                    <span class="skills__name">Scss</span>
-                    <span class="skills__name">Github ...</span>
+                    <span class="skills__name gold" onclick="alert('HTML = 80% kinh Nghiệm')" data-bubble="80%">Html</span>
+                    <span class="skills__name" onclick="alert('CSS = 60% kinh Nghiệm')" data-bubble="60%">Css</span>
+                    <span class="skills__name" onclick="alert('JAVASCRIPT = 10% kinh Nghiệm')" data-bubble="10%">Javascript</span>
+                    <span class="skills__name" onclick="alert('SCSS = 30% kinh Nghiệm')"data-bubble="30%">Scss</span>
+                    <span class="skills__name"><a href="https://github.com/son-pts">Github ...</a></span>
 
                     <h3 class="skills__subtitle">Design</h3>
-                    <span class="skills__name">Figma</span>
-                    <span class="skills__name">Adobe XD</span>
-                    <span class="skills__name" id="PSD">Photoshop</span>
-                    <span class="skills__name">Illustrator ...</span>
+                    <span class="skills__name" onclick="alert('Figma = 30% kinh Nghiệm')" data-bubble="30%">Figma</span>
+                    <span class="skills__name" onclick="alert('Adobe XD = 20% kinh Nghiệm')"data-bubble="20%">Adobe XD</span>
+                    <span class="skills__name gold" id="PSD" data-bubble="592/SP">Photoshop</span>
+                    <span class="skills__name gold" id="AI" data-bubble="280/SP">Illustrator ...</span>
 
 
                     <h3 class="skills__subtitle">Overtime work</h3>
-                    <span class="skills__name">Thợ Sửa Ống Nước</span>
-                    <span class="skills__name">Cài Win Dạo</span>
-                    <span class="skills__name">Chỉnh Ảnh Photoshop</span>
-                    <span class="skills__name">Design Poster</span>
-                    <span class="skills__name">Design Menu</span>
-                    <span class="skills__name">Design Brochure ...</span>
+                    <span class="skills__name gold" data-bubble="New">Thợ Sửa Ống Nước</span>
+                    <span class="skills__name gold" data-bubble="New">Cài Win Dạo</span>
+                    <span class="skills__name"data-bubble="2022">Cài Phần Mềm Máy Tính</span>
+                    <span class="skills__name gold" onclick="alert('Chỉnh Ảnh Photoshop = 80% kinh Nghiệm')"data-bubble="80%">Chỉnh Ảnh Photoshop</span>
+                    <span class="skills__name" id="poster"data-bubble="246/SP">Design Poster</span>
+                    <span class="skills__name" id="menu"data-bubble="249/SP">Design Menu</span>
+                    <span class="skills__name" id="brochuer"data-bubble="96/SP">Design Brochure ...</span>
                 </div>
 
                 <div class="skills__img">
@@ -138,54 +142,103 @@
             </div>
         </section>
 
-        <div class="modal" id="modals">
-            <div class="contenr">
-                <div class="closes" id="nav-closes">
-                    <i class='icon-close bx bx-window-close'></i>
-                </div>
-                <div class="item-wrap">
-                    <div class="item ">
-                        <img src="./assets/images/001.jpg" alt="Image">
+        <section>
+            <!-- PTS -->
+            <div class="modal" id="modals">
+                <div class="contenr">
+                    <div class="closes" id="nav-closes">
+                        <i class='icon-close bx bx-window-close'></i>
                     </div>
-    
-                    <div class="item">
-                        <img src="./assets/images/002.jpg" alt="Image">
-                    </div>
-    
-                    <div class="item">
-                        <img src="./assets/images/003.jpg" alt="Image">
-                    </div>
-    
-                    <div class="item">
-                        <img src="./assets/images/004.jpg" alt="Image">
-                    </div>
-    
-                    <div class="item">
-                        <img src="./assets/images/005.jpg" alt="Image">
-                    </div>
-    
-                    <div class="item">
-                        <img src="./assets/images/006.jpg" alt="Image">
-                    </div>
-    
-                    <div class="item">
-                        <img src="./assets/images/007.jpg" alt="Image">
-                    </div>
-    
-                    <div class="item">
-                        <img src="./assets/images/008.jpg" alt="Image">
-                    </div>
-    
-                    <div class="item">
-                        <img src="./assets/images/019.jpg" alt="Image">
-                    </div>
-    
-                    <div class="item">
-                        <img src="./assets/images/011.jpg" alt="Image">
+                    <div class="item-wrap">
+                        <div style="margin: 20px 0;">
+                            <h1>
+                                <center>Photoshop</center>
+                            </h1>
+                        </div>
+                        <img src="./assets/img/poster.png" alt="Image">
+                        <div style="margin: 20px 0;">
+                            <h1>
+                                <center>Menu</center>
+                            </h1>
+                        </div>
+                        <img src="./assets/img/menu.png" alt="Image">
+                        <div style="margin: 20px 0;">
+                            <h1>
+                                <center>Brochuer</center>
+                            </h1>
+                        </div>
+                        <img src="./assets/img/brochuer.png" alt="Image">
                     </div>
                 </div>
             </div>
-        </div>
+            <!-- poster -->
+            <div class="modal" id="posters">
+                <div class="contenr">
+                    <div class="closes" id="nav-closes">
+                        <i class='icon-close bx bx-window-close'></i>
+                    </div>
+                    <div class="item-wrap">
+                        <div style="margin: 20px 0;">
+                            <h1>
+                                <center>Poster</center>
+                            </h1>
+                        </div>
+                        <img src="./assets/img/poster.png" alt="Image">
+                    </div>
+                </div>
+            </div>
+            <!-- Menu -->
+            <div class="modal" id="menus">
+                <div class="contenr">
+                    <div class="closes" id="nav-closes">
+                        <i class='icon-close bx bx-window-close'></i>
+                    </div>
+                    <div class="item-wrap">
+                        <div style="margin: 20px 0;">
+                            <h1>
+                                <center>Menu</center>
+                            </h1>
+                        </div>
+                        <img src="./assets/img/menu.png" alt="Image">
+                        <img src="./assets/img/menu ngang.png" alt="Image">
+                    </div>
+                </div>
+            </div>
+            <!-- brochuer -->
+            <div class="modal" id="brochuers">
+                <div class="contenr">
+                    <div class="closes" id="nav-closes">
+                        <i class='icon-close bx bx-window-close'></i>
+                    </div>
+                    <div class="item-wrap">
+                        <div style="margin: 20px 0;">
+                            <h1>
+                                <center>Brochuer</center>
+                            </h1>
+                        </div>
+                        <img src="./assets/img/brochuer.png" alt="Image">
+                    </div>
+                </div>
+            </div>
+            <!-- AI -->
+            <div class="modal" id="ais">
+                <div class="contenr">
+                    <div class="closes" id="nav-closes">
+                        <i class='icon-close bx bx-window-close'></i>
+                    </div>
+                    <div class="item-wrap">
+                        <div style="margin: 20px 0;">
+                            <h1>
+                                <center>Illustrator</center>
+                            </h1>
+                        </div>
+                        <img src="./assets/img/AI.png" alt="Image">
+                        <img src="./assets/img/AI2.png" alt="Image">
+                        <img src="./assets/img/illustration stickers.png" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!--===== PORTFOLIO =====-->
         <section class="portfolio section" id="Product">
@@ -222,11 +275,11 @@
                 </div>
 
                 <div class="portfolio__img">
-                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/s417x417/245304458_4384694298316514_443226790767331541_n.png?_nc_cat=111&ccb=1-5&_nc_sid=aee45a&_nc_ohc=7lKZqWztUO0AX9AaMnU&_nc_oc=AQndjoD1lqbDTv_5k9RhzcyQBidAc6rNJU3G0LXs9y7a34XaevzWHwqZ5SjOSKeimVPgb3tu4U5T4yylw7MEVaB0&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=a43094d8614dc714d7e38b7e8ac52635&oe=618D78DA"
-                        alt="img">
+                    <img src="./assets/img/preview.png" alt="img">
 
                     <div class="portfolio__link">
-                        <a onclick="alert('Link đã bị lỗi vui lòng thử lại sau')" ; class="portfolio__link-name">View
+                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2F9kyx0naz0kp2cx871gbjrw-on.drv.tw%2Fhalloween-website%2F%3Ffbclid%3DIwAR1efgOvJ9KSeTo6KAlqiaZLoeLyfEjrNOVkJeC3vxfNARwJcXzJOLhd9aM&h=AT3wPfcP44kyGcs2h5J7q3DfE7htYVmtpiSaM7Q79qYCmFfXERH4lkid9g9aUhZlGCyczmp02Wf1p0G7IZmO3H9WQH2y2vQhMHUi-85xtxhcdUhVbkZ_osyNQ-kmCaLh5Czk2hi25iV2lepw6jzO"
+                            class="portfolio__link-name">View
                             details</a>
                     </div>
                 </div>
@@ -265,7 +318,7 @@
                     <span class="contact__text">0845816786</span>
 
                     <h3 class="contact__subtitle">ADDRESS</h3>
-                    <span class="contact__text">Ngyễn Công Trứ, Phường 8, Đà Lạt</span>
+                    <span class="contact__text">Nguyễn Công Trứ, Phường 8, Đà Lạt</span>
                 </div>
 
                 <form action="" class="contact__form">
@@ -307,11 +360,11 @@
                 <h2 class="footer__title">FOLLOW ME</h2>
                 <a href="https://www.facebook.com/sonkta/" class="about__social-icon"><i
                         class='bx bxl-facebook'></i></a>
-                <a href="https://www.youtube.com/channel/UCIDv607tiQKtZ0A-eFBqTlg" class="about__social-icon"><i
+                <a href="https://www.youtube.com/channel/UCpjtZ-pRZniHjK375ZSZztA" class="about__social-icon"><i
                         class='bx bxl-youtube'></i></a>
                 <a href="https://www.instagram.com/pham_son202/" class="about__social-icon"><i
                         class='bx bxl-instagram'></i></a>
-                <a href="https://github.com/phamthanhson999" class="about__social-icon"><i
+                <a href="https://github.com/son-pts" class="about__social-icon"><i
                         class='bx bxl-github'></i></a>
                 <a href="https://dribbble.com/phamsonkta" class="about__social-icon"><i class='bx bxl-dribbble'></i></a>
             </div>
