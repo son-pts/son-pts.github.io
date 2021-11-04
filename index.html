@@ -14,6 +14,7 @@
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
     <title>Sơn Phạm - Front-End Developer </title>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6J1QX5RKVE"></script>
     <script>
@@ -23,9 +24,37 @@
 
         gtag('config', 'G-6J1QX5RKVE');
     </script>
+    
 </head>
 
 <body>
+    <!--====== Messenger Plugin chat Code ======-->
+    <div id="fb-root"></div>
+
+    <!--======= Your Plugin chat code ========-->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "102191442267347");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <!--===== HEADER =====-->
     <header class="l-header">
         <nav class="nav bd-grid">
@@ -129,8 +158,10 @@
                     <h3 class="skills__subtitle">Overtime work</h3>
                     <span class="skills__name skills__name-buttom gold" data-bubble="New ">Thợ Sửa Ống Nước</span>
                     <span class="skills__name skills__name-buttom gold" data-bubble="New">Cài Win Dạo</span>
-                    <span class="skills__name skills__name-buttom gold" data-bubble="New 2022">Cài Phần Mềm Máy
+                    <span class="skills__name skills__name-buttom gold" data-bubble="New">Cài Phần Mềm Máy
                         Tính</span>
+                    <span class="skills__name skills__name-buttom gold" data-bubble="Install Now" >
+                        <a href="https://www.fshare.vn/folder/A5MCKM3AXKSZ?token=1635995674">Cài Full Adobe 2022</a></span>
                     <span class="skills__name skills__name-buttom gold" data-bubble="70%">Chỉnh Ảnh Photoshop</span>
                     <span class="skills__name skills__name-buttom" id="poster" data-bubble="246/SP">Design Poster</span>
                     <span class="skills__name skills__name-buttom" id="menu" data-bubble="249/SP">Design Menu</span>
