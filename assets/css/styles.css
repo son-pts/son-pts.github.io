@@ -359,13 +359,17 @@ img {
 }
 
 .about__social-icon {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin: 0 var(--mb-1);
+    transition: .3s linear;
 }
 
-.about__social-icon:hover {
-    transform: translateY(-5px);
+.about__social-icon:hover .bx {
+    transition: .2s linear;
+    transform: translateY(-10px);
     color: var(--first-color);
+    transform: scale(2);
+    
 }
 
 /* ===== SKILLS =====*/

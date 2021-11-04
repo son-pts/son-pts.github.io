@@ -13,7 +13,7 @@
     <!-- ===== BOX ICONS ===== -->
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-    <title>Sơn Phạm - Front-End Developer </title>
+    <title>Phạm Sơn - Front-End Developer </title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6J1QX5RKVE"></script>
@@ -24,7 +24,7 @@
 
         gtag('config', 'G-6J1QX5RKVE');
     </script>
-    
+
 </head>
 
 <body>
@@ -36,30 +36,30 @@
     </div>
 
     <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "102191442267347");
-      chatbox.setAttribute("attribution", "biz_inbox");
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "102191442267347");
+        chatbox.setAttribute("attribution", "biz_inbox");
 
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v12.0'
-        });
-      };
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v12.0'
+            });
+        };
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
     <!--===== HEADER =====-->
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="#" class="nav__logo">Phạm Sơn</a>
+                <a href="#" class="nav__logo">F10 Phạm Sơn </a>
             </div>
 
             <div class="nav__menu" id="nav-menu">
@@ -97,42 +97,55 @@
 
         <!--===== ABOUT =====-->
         <section class="about section" id="about">
-            <h2 class="section-title">About</h2>
-
-            <div class="about__container bd-grid">
-                <div class="about__img">
-                    <img src="assets/img/sd.jpg" alt="img">
-                </div>
-
-                <div>
-                    <h2 class="about__subtitle">I'am Phạm Sơn</h2>
-                    <span class="about__profession">Front-end developer </span>
-                    <p class="about__text">Hiện tại mình là một sinh viên của trường đại học Đà Lạt. Mình đang học tập,
-                        theo đuổi ngành Công Nghệ Thông Tin, với chuyên ngành kỹ thuật phần mềm. Và mục tiêu hiện tại
-                        của mình trở thành lập trình viên Front-End và mục tiêu sau đó mình sẽ qua học Back-End và
-                        Fullstack để tạo ra một Website hoàn chỉnh nhất.</p>
-
-                    <div class="about__social">
-                        <a href="https://www.facebook.com/sonkta/" class="about__social-icon"><i
-                                class='bx bxl-facebook'></i></a>
-                        <a href="https://www.youtube.com/channel/UCpjtZ-pRZniHjK375ZSZztA" class="about__social-icon"><i
-                                class='bx bxl-youtube'></i></a>
-                        <a href="https://www.instagram.com/pham_son202/" class="about__social-icon"><i
-                                class='bx bxl-instagram'></i></a>
-                        <a href="https://github.com/son-pts" class="about__social-icon"><i
-                                class='bx bxl-github'></i></a>
-                        <a href="https://dribbble.com/phamsonkta" class="about__social-icon"><i
-                                class='bx bxl-dribbble'></i></a>
+            <!-- click bất kỳ trong hàm onmouseover này là run autoplay music-->
+            <div onmouseover="playMusic()">
+                <h2 class="section-title">About</h2>
+                
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/sd.jpg" alt="img">
                     </div>
-                    <!--===== aduio =====-->
-                    <div class="audio" id="audio">
-                        <audio controls loop="1">
-                            <source src="./assets/img/Do-Toc-2-Do-Mixi-Phao-Phuc-Du-Masew.mp3" type="audio/mpeg">
-                        </audio>
+
+                    <div>
+                        <h2 class="about__subtitle">I'am Phạm Sơn</h2>
+                        <span class="about__profession">Front-end developer </span>
+                        <p class="about__text">Hiện tại mình là một sinh viên của trường đại học Đà Lạt. Mình đang học
+                            tập,
+                            theo đuổi ngành Công Nghệ Thông Tin, với chuyên ngành kỹ thuật phần mềm. Và mục tiêu hiện
+                            tại
+                            của mình trở thành lập trình viên Front-End và mục tiêu sau đó mình sẽ qua học Back-End và
+                            Fullstack để tạo ra một Website hoàn chỉnh nhất.</p>
+
+                        <div class="about__social">
+                            <a href="https://www.facebook.com/sonkta/" title="Facebook" class="about__social-icon"><i
+                                    class='bx bxl-facebook'></i></a>
+                            <a href="https://www.youtube.com/channel/UCpjtZ-pRZniHjK375ZSZztA" title="Youtube"
+                                class="about__social-icon"><i class='bx bxl-youtube'></i></a>
+                            <a href="https://www.instagram.com/pham_son202/" title="Instagram"
+                                class="about__social-icon"><i class='bx bxl-instagram'></i></a>
+                            <a href="https://github.com/son-pts" title="Github" class="about__social-icon"><i
+                                    class='bx bxl-github'></i></a>
+                            <a href="https://dribbble.com/phamsonkta" title="Dribbble" class="about__social-icon"><i
+                                    class='bx bxl-dribbble'></i></a>
+                        </div>
+                        <!--===== Music =====-->
+                        <div class="audio" id="audio" title="click Nghe Ngay">
+                            <!-- <p>
+                                <center>Hây Ở đây có một bài hát cuteee nek</center>
+                            </p> -->
+                            <audio controls id="divAudio" title="click Nghe Ngay">
+                                <source src="./assets/img/[Vietsub + Lyric] 24Kgoldn - Mood (remix) - Music Tik Tok.mp3"
+                                    type="audio/mpeg" type="audio/mp3">
+                            </audio>
+                            <script>
+                                var vAudio = document.getElementById("divAudio");
+                                function playMusic() {
+                                    vAudio.play();
+                                }
+                            </script>
+                        </div>
                     </div>
                 </div>
-            </div>
-
         </section>
 
         <!--===== SKILLS =====-->
@@ -160,8 +173,9 @@
                     <span class="skills__name skills__name-buttom gold" data-bubble="New">Cài Win Dạo</span>
                     <span class="skills__name skills__name-buttom gold" data-bubble="New">Cài Phần Mềm Máy
                         Tính</span>
-                    <span class="skills__name skills__name-buttom gold" data-bubble="Install Now" >
-                        <a href="https://www.fshare.vn/folder/A5MCKM3AXKSZ?token=1635995674">Cài Full Adobe 2022</a></span>
+                    <span class="skills__name skills__name-buttom gold" data-bubble="Install Now">
+                        <a href="https://www.fshare.vn/folder/A5MCKM3AXKSZ?token=1635995674">Cài Full Adobe
+                            2022</a></span>
                     <span class="skills__name skills__name-buttom gold" data-bubble="70%">Chỉnh Ảnh Photoshop</span>
                     <span class="skills__name skills__name-buttom" id="poster" data-bubble="246/SP">Design Poster</span>
                     <span class="skills__name skills__name-buttom" id="menu" data-bubble="249/SP">Design Menu</span>
@@ -409,14 +423,16 @@
 
             <div class="footer__data">
                 <h2 class="footer__title">FOLLOW ME</h2>
-                <a href="https://www.facebook.com/sonkta/" class="about__social-icon"><i
+                <a href="https://www.facebook.com/sonkta/" title="Facebook" class="about__social-icon"><i
                         class='bx bxl-facebook'></i></a>
-                <a href="https://www.youtube.com/channel/UCpjtZ-pRZniHjK375ZSZztA" class="about__social-icon"><i
-                        class='bx bxl-youtube'></i></a>
-                <a href="https://www.instagram.com/pham_son202/" class="about__social-icon"><i
+                <a href="https://www.youtube.com/channel/UCpjtZ-pRZniHjK375ZSZztA" title="Youtube"
+                    class="about__social-icon"><i class='bx bxl-youtube'></i></a>
+                <a href="https://www.instagram.com/pham_son202/" title="Instagram" class="about__social-icon"><i
                         class='bx bxl-instagram'></i></a>
-                <a href="https://github.com/son-pts" class="about__social-icon"><i class='bx bxl-github'></i></a>
-                <a href="https://dribbble.com/phamsonkta" class="about__social-icon"><i class='bx bxl-dribbble'></i></a>
+                <a href="https://github.com/son-pts" title="Github" class="about__social-icon"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://dribbble.com/phamsonkta" title="dribbble" class="about__social-icon"><i
+                        class='bx bxl-dribbble'></i></a>
             </div>
 
 
