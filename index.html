@@ -27,7 +27,9 @@
 
 </head>
 
-<body>
+
+
+<body >
     <!--====== Messenger Plugin chat Code ======-->
     <div id="fb-root"></div>
 
@@ -97,8 +99,6 @@
 
         <!--===== ABOUT =====-->
         <section class="about section" id="about">
-            <!-- click bất kỳ trong hàm onmouseover này là run autoplay music-->
-            <div onmouseover="playMusic()">
                 <h2 class="section-title">About</h2>
                 
                 <div class="about__container bd-grid">
@@ -106,35 +106,37 @@
                         <img src="assets/img/sd.jpg" alt="img">
                     </div>
 
-                    <div>
-                        <h2 class="about__subtitle">I'am Phạm Sơn</h2>
-                        <span class="about__profession">Front-end developer </span>
-                        <p class="about__text">Hiện tại mình là một sinh viên của trường đại học Đà Lạt. Mình đang học
-                            tập,
-                            theo đuổi ngành Công Nghệ Thông Tin, với chuyên ngành kỹ thuật phần mềm. Và mục tiêu hiện
-                            tại
-                            của mình trở thành lập trình viên Front-End và mục tiêu sau đó mình sẽ qua học Back-End và
-                            Fullstack để tạo ra một Website hoàn chỉnh nhất.</p>
-
-                        <div class="about__social">
-                            <a href="https://www.facebook.com/sonkta/" title="Facebook" class="about__social-icon"><i
-                                    class='bx bxl-facebook'></i></a>
-                            <a href="https://www.youtube.com/channel/UCpjtZ-pRZniHjK375ZSZztA" title="Youtube"
-                                class="about__social-icon"><i class='bx bxl-youtube'></i></a>
-                            <a href="https://www.instagram.com/pham_son202/" title="Instagram"
-                                class="about__social-icon"><i class='bx bxl-instagram'></i></a>
-                            <a href="https://github.com/son-pts" title="Github" class="about__social-icon"><i
-                                    class='bx bxl-github'></i></a>
-                            <a href="https://dribbble.com/phamsonkta" title="Dribbble" class="about__social-icon"><i
-                                    class='bx bxl-dribbble'></i></a>
+            <!-- click, di chuột bất kỳ trong hàm onmouseover này là run autoplay music-->
+                    <div >
+                        <div onmouseover="playMusic()">
+                            <h2 class="about__subtitle">I'am Phạm Sơn</h2>
+                            <span class="about__profession">Front-end developer </span>
+                            <p class="about__text">Hiện tại mình là một sinh viên của trường đại học Đà Lạt. Mình đang học
+                                tập,
+                                theo đuổi ngành Công Nghệ Thông Tin, với chuyên ngành kỹ thuật phần mềm. Và mục tiêu hiện
+                                tại
+                                của mình trở thành lập trình viên Front-End và mục tiêu sau đó mình sẽ qua học Back-End và
+                                Fullstack để tạo ra một Website hoàn chỉnh nhất.</p>
+    
+                            <div class="about__social">
+                                <a href="https://www.facebook.com/sonkta/" title="Facebook" class="about__social-icon"><i
+                                        class='bx bxl-facebook'></i></a>
+                                <a href="https://www.youtube.com/channel/UCpjtZ-pRZniHjK375ZSZztA" title="Youtube"
+                                    class="about__social-icon"><i class='bx bxl-youtube'></i></a>
+                                <a href="https://www.instagram.com/pham_son202/" title="Instagram"
+                                    class="about__social-icon"><i class='bx bxl-instagram'></i></a>
+                                <a href="https://github.com/son-pts" title="Github" class="about__social-icon"><i
+                                        class='bx bxl-github'></i></a>
+                                <a href="https://dribbble.com/phamsonkta" title="Dribbble" class="about__social-icon"><i
+                                        class='bx bxl-dribbble'></i></a>
+                            </div>
                         </div>
+                       
                         <!--===== Music =====-->
                         <div class="audio" id="audio" title="click Nghe Ngay">
-                            <!-- <p>
-                                <center>Hây Ở đây có một bài hát cuteee nek</center>
-                            </p> -->
+                            <a href="https://www.youtube.com/watch?v=uzOE3c12w0U"><center>Sunflower</center></a>
                             <audio controls id="divAudio" title="click Nghe Ngay">
-                                <source src="./assets/img/[Vietsub + Lyric] 24Kgoldn - Mood (remix) - Music Tik Tok.mp3"
+                                <source src="./assets/img/(Paddy Sun) Sunflower - Original Music.mp3"
                                     type="audio/mpeg" type="audio/mp3">
                             </audio>
                             <script>
@@ -145,7 +147,6 @@
                             </script>
                         </div>
                     </div>
-                </div>
         </section>
 
         <!--===== SKILLS =====-->
