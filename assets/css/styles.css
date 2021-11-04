@@ -623,7 +623,6 @@ img {
     .bd-grid {
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: var(--mb-4);
 
     }
 }
