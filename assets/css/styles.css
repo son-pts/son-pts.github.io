@@ -95,7 +95,7 @@ img {
 /*===== CLASS CSS ===== */
 
 .section {
-    padding: 3rem 0;
+    padding: 3rem 0 0;
 }
 
 .section-title {
@@ -364,6 +364,7 @@ img {
 }
 
 .about__social-icon:hover {
+    transform: translateY(-5px);
     color: var(--first-color);
 }
 
@@ -781,11 +782,8 @@ img {
 }
 
 .portfolio__img{
-    height: 160px;
     border-radius: 10px;
 }
-
-
 
 
 .skills__box a:hover, .skills__box a:active, .skills__box a:focus {
@@ -860,3 +858,9 @@ span.gold[data-bubble]:after {
 
     }
 }
+
+
+#canvas {
+    width: 100%;
+    height: 100%;
+  }
