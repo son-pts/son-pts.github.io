@@ -29,7 +29,7 @@
 
 
 
-<body >
+<body>
     <!--====== Messenger Plugin chat Code ======-->
     <div id="fb-root"></div>
 
@@ -99,54 +99,72 @@
 
         <!--===== ABOUT =====-->
         <section class="about section" id="about">
-                <h2 class="section-title">About</h2>
-                
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/sd.jpg" alt="img">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/sd.jpg" alt="img">
+                </div>
+
+                <!-- click, di chuột bất kỳ trong hàm onmouseover này là run autoplay music-->
+                <div>
+                    <div onmouseover="playMusic()">
+                        <h2 class="about__subtitle">I'am Phạm Sơn</h2>
+                        <span class="about__profession">
+                            <a class="hover__the-a" title="Front-end developer là gì ?"
+                            href="https://topdev.vn/blog/mo-ta-cong-viec-vi-tri-front-end-developer/"><ins>Front-end developer</ins></a> </span>
+                        <p class="about__text">
+                            Hiện tại mình là một sinh viên của
+                            <a class="hover__the-a" title="Trường Đại Học Đà Lạt ở đâu ?" target="_blank" 
+                                href="https://g.page/DalatUniversity?share"><ins>Trường Đại Học Đà Lạt</ins></a>.
+                            Mình đang học tập, theo đuổi ngành Công Nghệ Thông Tin,
+                            với chuyên ngành 
+                            <a class="hover__the-a" title="kỹ thuật phần mềm là gì ?"
+                                href="https://topdev.vn/blog/frontend-la-gi-backend-la-gi-va-fullstack-la-gi/"><ins>kỹ thuật phần mềm</ins></a>
+                            . Và mục tiêu hiện tại
+                            của mình trở thành lập trình viên
+                            <a class="hover__the-a" title="Front-End là gì ?"
+                                href="https://topdev.vn/blog/frontend-la-gi-backend-la-gi-va-fullstack-la-gi/"><ins>Front-End</ins></a>
+                            và mục tiêu sau đó mình sẽ qua học
+                            <a class="hover__the-a" title="Back-End là gì ???"
+                                href="https://topdev.vn/blog/frontend-la-gi-backend-la-gi-va-fullstack-la-gi/"><ins>Back-End</ins></a>
+                            và
+                            <a class="hover__the-a" title="Fullstack là gì ???"
+                                href="https://topdev.vn/blog/frontend-la-gi-backend-la-gi-va-fullstack-la-gi/"><ins>Fullstack</ins></a>
+                            để tạo ra một Website hoàn chỉnh nhất.
+                        </p>
+
+                        <div class="about__social">
+                            <a target="_blank" href="https://www.facebook.com/sonkta/" title="Facebook"
+                                class="about__social-icon"><i class='bx bxl-facebook'></i></a>
+                            <a target="_blank" href="https://www.youtube.com/channel/UCpjtZ-pRZniHjK375ZSZztA"
+                                title="Youtube" class="about__social-icon"><i class='bx bxl-youtube'></i></a>
+                            <a target="_blank" href="https://www.instagram.com/pham_son202/" title="Instagram"
+                                class="about__social-icon"><i class='bx bxl-instagram'></i></a>
+                            <a target="_blank" href="https://github.com/son-pts" title="Github"
+                                class="about__social-icon"><i class='bx bxl-github'></i></a>
+                            <a target="_blank" href="https://dribbble.com/phamsonkta" title="Dribbble"
+                                class="about__social-icon"><i class='bx bxl-dribbble'></i></a>
+                        </div>
                     </div>
 
-            <!-- click, di chuột bất kỳ trong hàm onmouseover này là run autoplay music-->
-                    <div >
-                        <div onmouseover="playMusic()">
-                            <h2 class="about__subtitle">I'am Phạm Sơn</h2>
-                            <span class="about__profession">Front-end developer </span>
-                            <p class="about__text">Hiện tại mình là một sinh viên của trường đại học Đà Lạt. Mình đang học
-                                tập,
-                                theo đuổi ngành Công Nghệ Thông Tin, với chuyên ngành kỹ thuật phần mềm. Và mục tiêu hiện
-                                tại
-                                của mình trở thành lập trình viên Front-End và mục tiêu sau đó mình sẽ qua học Back-End và
-                                Fullstack để tạo ra một Website hoàn chỉnh nhất.</p>
-    
-                            <div class="about__social">
-                                <a href="https://www.facebook.com/sonkta/" title="Facebook" class="about__social-icon"><i
-                                        class='bx bxl-facebook'></i></a>
-                                <a href="https://www.youtube.com/channel/UCpjtZ-pRZniHjK375ZSZztA" title="Youtube"
-                                    class="about__social-icon"><i class='bx bxl-youtube'></i></a>
-                                <a href="https://www.instagram.com/pham_son202/" title="Instagram"
-                                    class="about__social-icon"><i class='bx bxl-instagram'></i></a>
-                                <a href="https://github.com/son-pts" title="Github" class="about__social-icon"><i
-                                        class='bx bxl-github'></i></a>
-                                <a href="https://dribbble.com/phamsonkta" title="Dribbble" class="about__social-icon"><i
-                                        class='bx bxl-dribbble'></i></a>
-                            </div>
-                        </div>
-                       
-                        <!--===== Music =====-->
-                        <div class="audio" id="audio" title="click Nghe Ngay">
-                            <a href="https://www.youtube.com/watch?v=uzOE3c12w0U"><center>Sunflower</center></a>
-                            <audio controls id="divAudio" title="click Nghe Ngay">
-                                <source src="./assets/img/(Paddy Sun) Sunflower - Original Music.mp3"
-                                    type="audio/mpeg" type="audio/mp3">
-                            </audio>
-                            <script>
-                                var vAudio = document.getElementById("divAudio");
-                                function playMusic() {
-                                    vAudio.play();
-                                }
-                            </script>
-                        </div>
+                    <!--===== Music =====-->
+                    <div class="audio" id="audio" title="click Nghe Ngay">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=uzOE3c12w0U">
+                            <center>Sunflower</center>
+                        </a>
+                        <audio controls id="divAudio" title="click Nghe Ngay">
+                            <source src="./assets/img/(Paddy Sun) Sunflower - Original Music.mp3" type="audio/mpeg"
+                                type="audio/mp3">
+                        </audio>
+                        <script>
+                            var vAudio = document.getElementById("divAudio");
+                            function playMusic() {
+                                vAudio.play();
+                            }
+                        </script>
                     </div>
+                </div>
         </section>
 
         <!--===== SKILLS =====-->
@@ -160,7 +178,8 @@
                     <span class="skills__name" data-bubble="60%">Css</span>
                     <span class="skills__name" data-bubble="10%">Javascript</span>
                     <span class="skills__name" data-bubble="45%">Scss</span>
-                    <span class="skills__name"><a href="https://github.com/son-pts">Github ...</a></span>
+                    <span class="skills__name"><a target="_blank" href="https://github.com/son-pts">Github
+                            ...</a></span>
 
                     <h3 class="skills__subtitle">Design</h3>
                     <span class="skills__name" data-bubble="30%">Figma</span>
@@ -175,7 +194,8 @@
                     <span class="skills__name skills__name-buttom gold" data-bubble="New">Cài Phần Mềm Máy
                         Tính</span>
                     <span class="skills__name skills__name-buttom gold" data-bubble="Install Now">
-                        <a href="https://www.fshare.vn/folder/A5MCKM3AXKSZ?token=1635995674">Cài Full Adobe
+                        <a target="_blank" href="https://www.fshare.vn/folder/A5MCKM3AXKSZ?token=1635995674">Cài Full
+                            Adobe
                             2022</a></span>
                     <span class="skills__name skills__name-buttom gold" data-bubble="70%">Chỉnh Ảnh Photoshop</span>
                     <span class="skills__name skills__name-buttom" id="poster" data-bubble="246/SP">Design Poster</span>
@@ -297,7 +317,8 @@
                     <img src="./assets/img/00001.png" alt="img">
 
                     <div class="portfolio__link">
-                        <a href="https://9kyx0naz0kp2cx871gbjrw-on.drv.tw/webip/" class="portfolio__link-name">View
+                        <a target="_blank" href="https://9kyx0naz0kp2cx871gbjrw-on.drv.tw/webip/"
+                            class="portfolio__link-name">View
                             details</a>
                     </div>
                 </div>
@@ -306,7 +327,8 @@
                     <img src="./assets/img/0004.png" alt="img">
 
                     <div class="portfolio__link">
-                        <a href="https://9kyx0naz0kp2cx871gbjrw-on.drv.tw/responsive-travel-website-main/"
+                        <a target="_blank"
+                            href="https://9kyx0naz0kp2cx871gbjrw-on.drv.tw/responsive-travel-website-main/"
                             class="portfolio__link-name">View
                             details</a>
                     </div>
@@ -316,7 +338,8 @@
                     <img src="./assets/img/0005.png" alt="img">
 
                     <div class="portfolio__link">
-                        <a href="https://9kyx0naz0kp2cx871gbjrw-on.drv.tw/text%26nhi%20phan%20%26%20morse/"
+                        <a target="_blank"
+                            href="https://9kyx0naz0kp2cx871gbjrw-on.drv.tw/text%26nhi%20phan%20%26%20morse/"
                             class="portfolio__link-name">View details</a>
                     </div>
                 </div>
@@ -325,7 +348,8 @@
                     <img src="./assets/img/0003.png" alt="img">
 
                     <div class="portfolio__link">
-                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2F9kyx0naz0kp2cx871gbjrw-on.drv.tw%2Fhalloween-website%2F%3Ffbclid%3DIwAR1efgOvJ9KSeTo6KAlqiaZLoeLyfEjrNOVkJeC3vxfNARwJcXzJOLhd9aM&h=AT3wPfcP44kyGcs2h5J7q3DfE7htYVmtpiSaM7Q79qYCmFfXERH4lkid9g9aUhZlGCyczmp02Wf1p0G7IZmO3H9WQH2y2vQhMHUi-85xtxhcdUhVbkZ_osyNQ-kmCaLh5Czk2hi25iV2lepw6jzO"
+                        <a target="_blank"
+                            href="https://l.facebook.com/l.php?u=https%3A%2F%2F9kyx0naz0kp2cx871gbjrw-on.drv.tw%2Fhalloween-website%2F%3Ffbclid%3DIwAR1efgOvJ9KSeTo6KAlqiaZLoeLyfEjrNOVkJeC3vxfNARwJcXzJOLhd9aM&h=AT3wPfcP44kyGcs2h5J7q3DfE7htYVmtpiSaM7Q79qYCmFfXERH4lkid9g9aUhZlGCyczmp02Wf1p0G7IZmO3H9WQH2y2vQhMHUi-85xtxhcdUhVbkZ_osyNQ-kmCaLh5Czk2hi25iV2lepw6jzO"
                             class="portfolio__link-name">View
                             details</a>
                     </div>
@@ -335,7 +359,8 @@
                     <img src="./assets/img/0001.png" alt="img">
 
                     <div class="portfolio__link">
-                        <a href="https://9kyx0naz0kp2cx871gbjrw-on.drv.tw/responsive-landing-page-headphones-main/"
+                        <a target="_blank"
+                            href="https://9kyx0naz0kp2cx871gbjrw-on.drv.tw/responsive-landing-page-headphones-main/"
                             class="portfolio__link-name">View details</a>
                     </div>
                 </div>
@@ -344,7 +369,8 @@
                     <img src="./assets/img/0002.png" alt="img">
 
                     <div class="portfolio__link">
-                        <a href="https://9kyx0naz0kp2cx871gbjrw-on.drv.tw/responsive-plants-website-main/"
+                        <a target="_blank"
+                            href="https://9kyx0naz0kp2cx871gbjrw-on.drv.tw/responsive-plants-website-main/"
                             class="portfolio__link-name">View details</a>
                     </div>
                 </div>
@@ -363,18 +389,22 @@
                             class='bx bx-happy-beaming'></i></span>
 
                     <h3 class="contact__subtitle">BIRTHDAY</h3>
-                    <span class="contact__text"><i class='bx bx-happy-heart-eyes'></i> 10/06/2k2</span>
+                    <span class="contact__text"><i class='bx bx-happy-heart-eyes'></i> <a target="_blank"
+                            href="javascript:alert('10/06/2***');">10/06/2***</a></span>
 
                     <h3 class="contact__subtitle">PHONE</h3>
-                    <span class="contact__text"><i class='bx bx-phone'></i> 0845816786</span>
+                    <span class="contact__text"><i class='bx bx-phone'></i> <a
+                            href="tel:0845816786">0845816786</a></span>
 
                     <h3 class="contact__subtitle">EMAIL</h3>
-                    <span class="contact__text"><i class='bx bx-mail-send'></i> sonpt2k2@gmail.com</span>
+                    <span class="contact__text"><i class='bx bx-mail-send'></i> <a target="_blank"
+                            href="mailto:sonpt2k2@gmail.com">sonpt2k2@gmail.com</a></span>
 
 
                     <h3 class="contact__subtitle">ADDRESS</h3>
-                    <span class="contact__text"><i class='bx bx-street-view'></i> Nguyễn Công Trứ, Phường 8, Đà
-                        Lạt</span>
+                    <span class="contact__text"><a target="_blank" href="https://g.page/DalatUniversity?share"><i
+                                class='bx bx-street-view'></i> Nguyễn Công Trứ, Phường 8, Đà
+                            Lạt</a></span>
                 </div>
                 <div class="contact__info">
 
@@ -424,15 +454,15 @@
 
             <div class="footer__data">
                 <h2 class="footer__title">FOLLOW ME</h2>
-                <a href="https://www.facebook.com/sonkta/" title="Facebook" class="about__social-icon"><i
+                <a target="_blank" href="https://www.facebook.com/sonkta/" title="Facebook" class="about__social-icon"><i
                         class='bx bxl-facebook'></i></a>
-                <a href="https://www.youtube.com/channel/UCpjtZ-pRZniHjK375ZSZztA" title="Youtube"
+                <a target="_blank" href="https://www.youtube.com/channel/UCpjtZ-pRZniHjK375ZSZztA" title="Youtube"
                     class="about__social-icon"><i class='bx bxl-youtube'></i></a>
-                <a href="https://www.instagram.com/pham_son202/" title="Instagram" class="about__social-icon"><i
+                <a target="_blank" href="https://www.instagram.com/pham_son202/" title="Instagram" class="about__social-icon"><i
                         class='bx bxl-instagram'></i></a>
-                <a href="https://github.com/son-pts" title="Github" class="about__social-icon"><i
+                <a target="_blank" href="https://github.com/son-pts" title="Github" class="about__social-icon"><i
                         class='bx bxl-github'></i></a>
-                <a href="https://dribbble.com/phamsonkta" title="dribbble" class="about__social-icon"><i
+                <a target="_blank" href="https://dribbble.com/phamsonkta" title="dribbble" class="about__social-icon"><i
                         class='bx bxl-dribbble'></i></a>
             </div>
 

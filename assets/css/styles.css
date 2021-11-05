@@ -308,7 +308,7 @@ img {
     border-radius: 50%;
     position: absolute;
     top: 5%;
-    left: 60%;
+    left: 58%;
   }
   .one {
     animation: circle 5s infinite linear;
@@ -493,7 +493,8 @@ img {
   .contact__text:hover::before {
     transform-origin: bottom left;
     transform: scaleX(1);
-  }
+}
+
 
 
 /* ===== FOOTER=====*/
@@ -869,3 +870,7 @@ span.gold[data-bubble]:after {
     width: 100%;
     height: 100%;
   }
+
+.hover__the-a:hover{
+color: #50C7C7;
+}
