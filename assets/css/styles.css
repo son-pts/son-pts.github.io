@@ -68,6 +68,7 @@ body {
     font-weight: var(--font-medium);
     color: var(--text-color);
     line-height: 1.6;
+    cursor: url("../img/cursor1.png"),auto;
 }
 
 h1, h2, p {
@@ -874,3 +875,8 @@ span.gold[data-bubble]:after {
 .hover__the-a:hover{
 color: #50C7C7;
 }
+
+
+
+
+
