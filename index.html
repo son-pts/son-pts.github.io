@@ -30,34 +30,45 @@
 
 
 <body>
-    <!--====== Messenger Plugin chat Code ======-->
-    <div id="fb-root"></div>
+    <!--=========== Plugin Code Facebook ==========-->
+    <section>
+        <!--====== Messenger Plugin chat Code Facebook ======-->
+        <div id="fb-root"></div>
 
-    <!--======= Your Plugin chat code ========-->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+        <!--======= Your Plugin chat code Facebook ========-->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
 
-    <script>
-        var chatbox = document.getElementById('fb-customer-chat');
-        chatbox.setAttribute("page_id", "102191442267347");
-        chatbox.setAttribute("attribution", "biz_inbox");
+        <script>
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "102191442267347");
+            chatbox.setAttribute("attribution", "biz_inbox");
 
-        window.fbAsyncInit = function () {
-            FB.init({
-                xfbml: true,
-                version: 'v12.0'
-            });
-        };
+            window.fbAsyncInit = function () {
+                FB.init({
+                    xfbml: true,
+                    version: 'v12.0'
+                });
+            };
 
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-    <!--===== HEADER =====-->
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <!--======= Your Plugin like share code Facebook ========-->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous"
+            src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=286292629999967&autoLogAppEvents=1"
+            nonce="4toPT3sz"></script>
+
+    </section>
+
+    <!--=========== HEADER ===========-->
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
@@ -112,15 +123,17 @@
                         <h2 class="about__subtitle">I'am Phạm Sơn</h2>
                         <span class="about__profession">
                             <a class="hover__the-a" title="Front-end developer là gì ?"
-                            href="https://topdev.vn/blog/mo-ta-cong-viec-vi-tri-front-end-developer/"><ins>Front-end developer</ins></a> </span>
+                                href="https://topdev.vn/blog/mo-ta-cong-viec-vi-tri-front-end-developer/"><ins>Front-end
+                                    developer</ins></a> </span>
                         <p class="about__text">
                             Hiện tại mình là một sinh viên của
-                            <a class="hover__the-a" title="Trường Đại Học Đà Lạt ở đâu ?" target="_blank" 
+                            <a class="hover__the-a" title="Trường Đại Học Đà Lạt ở đâu ?" target="_blank"
                                 href="https://g.page/DalatUniversity?share"><ins>Trường Đại Học Đà Lạt</ins></a>.
                             Mình đang học tập, theo đuổi ngành Công Nghệ Thông Tin,
-                            với chuyên ngành 
+                            với chuyên ngành
                             <a class="hover__the-a" title="kỹ thuật phần mềm là gì ?"
-                                href="https://topdev.vn/blog/frontend-la-gi-backend-la-gi-va-fullstack-la-gi/"><ins>kỹ thuật phần mềm</ins></a>
+                                href="https://topdev.vn/blog/frontend-la-gi-backend-la-gi-va-fullstack-la-gi/"><ins>kỹ
+                                    thuật phần mềm</ins></a>
                             . Và mục tiêu hiện tại
                             của mình trở thành lập trình viên
                             <a class="hover__the-a" title="Front-End là gì ?"
@@ -145,6 +158,8 @@
                                 class="about__social-icon"><i class='bx bxl-github'></i></a>
                             <a target="_blank" href="https://dribbble.com/phamsonkta" title="Dribbble"
                                 class="about__social-icon"><i class='bx bxl-dribbble'></i></a>
+                            <div class="fb-like" data-href="https://son-pts.github.io/" data-width="200"
+                                data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
                         </div>
                     </div>
 
@@ -433,7 +448,7 @@
         </canvas>
     </main>
 
-    <!--===== FOOTER =====-->
+    <!--============ FOOTER ============-->
     <footer class="footer section">
         <div class="footer__container bd-grid">
             <div class="footer__data">
@@ -454,12 +469,12 @@
 
             <div class="footer__data">
                 <h2 class="footer__title">FOLLOW ME</h2>
-                <a target="_blank" href="https://www.facebook.com/sonkta/" title="Facebook" class="about__social-icon"><i
-                        class='bx bxl-facebook'></i></a>
+                <a target="_blank" href="https://www.facebook.com/sonkta/" title="Facebook"
+                    class="about__social-icon"><i class='bx bxl-facebook'></i></a>
                 <a target="_blank" href="https://www.youtube.com/channel/UCpjtZ-pRZniHjK375ZSZztA" title="Youtube"
                     class="about__social-icon"><i class='bx bxl-youtube'></i></a>
-                <a target="_blank" href="https://www.instagram.com/pham_son202/" title="Instagram" class="about__social-icon"><i
-                        class='bx bxl-instagram'></i></a>
+                <a target="_blank" href="https://www.instagram.com/pham_son202/" title="Instagram"
+                    class="about__social-icon"><i class='bx bxl-instagram'></i></a>
                 <a target="_blank" href="https://github.com/son-pts" title="Github" class="about__social-icon"><i
                         class='bx bxl-github'></i></a>
                 <a target="_blank" href="https://dribbble.com/phamsonkta" title="dribbble" class="about__social-icon"><i
@@ -475,13 +490,13 @@
         <i class='bx bx-up-arrow-alt scrollup__icon'></i>
     </a>
 
-    <!--===== SCROLL REVEAL =====-->
+    <!--============ SCROLL REVEAL ===========-->
     <script src="https://unpkg.com/scrollreveal"></script>
 
-    <!--===== MAIN JS =====-->
+    <!--============== MAIN JS =============-->
     <script src="assets/js/main.js"></script>
 
-    <!--===== RUN IMG =====-->
+    <!--============== RUN IMG ===============-->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script>
     <script src="./assets/js/script.js"></script>
 

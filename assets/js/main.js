@@ -61,6 +61,8 @@ sr.reveal('.about__profession', {delay: 300})
 sr.reveal('.about__text', {delay: 400})
 sr.reveal('.about__social-icon', {delay: 500, interval: 200})
 
+//like share pluing facebook
+sr.reveal('.fb-like', {origin:'right',delay: 600, interval: 200})
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle', {})
 sr.reveal('.skills__name', {distance: '100px', delay: 30, interval: 100})
@@ -77,6 +79,7 @@ sr.reveal('.contact__text', {delay: 30,interval: 200})
 
 //audio 
 sr.reveal('.audio', {origin:'bottom', delay: 400})
+
  
 /*=============== SHOW SCROLL UP ===============*/ 
 function scrollUp(){
