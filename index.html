@@ -15,59 +15,13 @@
 
     <title>Phạm Sơn - Front-End Developer </title>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6J1QX5RKVE"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-6J1QX5RKVE');
-    </script>
+    
 
 </head>
 
 
 
 <body>
-    <!--=========== Plugin Code Facebook ==========-->
-    <section>
-        <!--====== Messenger Plugin chat Code Facebook ======-->
-        <div id="fb-root"></div>
-
-        <!--======= Your Plugin chat code Facebook ========-->
-        <div id="fb-customer-chat" class="fb-customerchat">
-        </div>
-
-        <script>
-            var chatbox = document.getElementById('fb-customer-chat');
-            chatbox.setAttribute("page_id", "102191442267347");
-            chatbox.setAttribute("attribution", "biz_inbox");
-
-            window.fbAsyncInit = function () {
-                FB.init({
-                    xfbml: true,
-                    version: 'v12.0'
-                });
-            };
-
-            (function (d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s); js.id = id;
-                js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
-
-        <!--======= Your Plugin like share code Facebook ========-->
-        <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous"
-            src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=286292629999967&autoLogAppEvents=1"
-            nonce="4toPT3sz"></script>
-
-    </section>
-
     <!--=========== HEADER ===========-->
     <header class="l-header">
         <nav class="nav bd-grid">
@@ -127,7 +81,7 @@
                                     developer</ins></a> </span>
                         <p class="about__text">
                             Hiện tại mình là một sinh viên của
-                            <a target="_blank" class="hover__the-a" title="Trường Đại Học Đà Lạt ở đâu ?" 
+                            <a target="_blank" class="hover__the-a" title="Trường Đại Học Đà Lạt ở đâu ?"
                                 href="https://g.page/DalatUniversity?share"><ins>Trường Đại Học Đà Lạt</ins></a>.
                             Mình đang học tập, theo đuổi ngành Công Nghệ Thông Tin,
                             với chuyên ngành
@@ -325,7 +279,7 @@
 
         <!--===== PORTFOLIO =====-->
         <section class="portfolio section" id="Product">
-  
+
             <h2 class="section-title" style="color:#fff;">Product</h2>
 
             <div class="portfolio__container bd-grid" style="padding: 2rem 0 3rem;">
@@ -501,6 +455,53 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script>
     <script src="./assets/js/script.js"></script>
 
+    <!--=========== Plugin Code Facebook ==========-->
+    <section>
+        <!--====== Messenger Plugin chat Code Facebook ======-->
+        <div id="fb-root"></div>
+
+        <!--======= Your Plugin chat code Facebook ========-->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
+
+        <script>
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "102191442267347");
+            chatbox.setAttribute("attribution", "biz_inbox");
+
+            window.fbAsyncInit = function () {
+                FB.init({
+                    xfbml: true,
+                    version: 'v12.0'
+                });
+            };
+
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <!--======= Your Plugin like share code Facebook ========-->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous"
+            src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=286292629999967&autoLogAppEvents=1"
+            nonce="4toPT3sz"></script>
+
+    </section>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6J1QX5RKVE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-6J1QX5RKVE');
+    </script>
 
 </body>
 
